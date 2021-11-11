@@ -1,0 +1,55 @@
+
+body{
+    height: 800px;
+    background: linear-gradient( to right,magenta,rgb(164, 164, 245));
+   display: flex;
+   justify-content: space-evenly;
+}
+.box{
+    width:300px;
+    height:325px;;
+    background: white;
+    margin-top: 10%;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+h3{
+    padding: 10px;
+    text-align: center;
+}
+
+input{
+    width:80%;
+    border:1px solid lightblue;
+    margin:5px 0 5px 10%;
+    padding :2px;
+    height:18px;
+
+
+}
+label{
+    margin:20px 0 5px 10%;
+    font-size:small;
+}
+button{
+    margin:10px 0 5px 10%;
+    background-color: rgb(19, 7, 7); 
+    color: white;
+    padding: 6px;
+    width:83%;
+    border:none;
+    border-radius: 3px;
+}
+small{
+    float: right;
+    margin-right: 15px;
+}
+span{
+    color: blue;
+}
+
+::placeholder{
+    padding:2px;
+    font-size: x-small;
+}
